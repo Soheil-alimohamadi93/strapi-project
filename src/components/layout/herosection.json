@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_layout_herosections",
+  "info": {
+    "displayName": "herosection"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "calltoaction": {
+      "type": "string",
+      "required": true
+    },
+    "buttons": {
+      "displayName": "butoon",
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.butoon"
+    }
+  }
+}

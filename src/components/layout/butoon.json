@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_layout_butoons",
+  "info": {
+    "displayName": "butoon"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
